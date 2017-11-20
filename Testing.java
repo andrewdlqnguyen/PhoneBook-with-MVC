@@ -1,20 +1,45 @@
-import static org.junit.Assert.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class squareTest2 {
+class BuddyInfoTest {
 
 	@Test
-	public void test() {
+	void testBuddyInfo() {
 		BuddyInfo test = new BuddyInfo("Tom", "Carleton", "647 999 1230");
-		
 		String output = test.getName();
 
 		assertEquals("Tom", output);
-		
-
 	}
 
+	@Test
+	void testGetName() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetName() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetAddress() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetAddress() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetPhoneNumber() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetPhoneNumber() {
+		fail("Not yet implemented");
+	}
 
 }
